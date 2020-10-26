@@ -1,11 +1,10 @@
 import React from 'react';
 
 import SideMenu from '../components/SideMenu'
-import Header from '../components/Header';
-import PageHeader from '../components/PageHeader'
+import Header from '../components/Header'
+import Employees from '../pages/Employees/Employees'
 
 import { makeStyles } from '@material-ui/core';
-import PeopleIcon from '@material-ui/icons/People';
 
 
 
@@ -24,12 +23,9 @@ function App() {
       <SideMenu/>
       <div className={classes.appMain}>
         <Header/>
-        <PageHeader
-          title="Page Header"
-          subtitle="Page description"
-          icon={<PeopleIcon/>}
-        />
+        <Employees/>
       </div>
+      
     </>
   );
 }
