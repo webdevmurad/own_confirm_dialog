@@ -4,6 +4,7 @@ import Select from "./Select";
 import Checkbox from "./Checkbox";
 import DataPicker from './DataPicker'
 import Button from './Button'
+import ActionButton from './ActionButton'
 
 
 export const Controls = {
@@ -12,5 +13,6 @@ export const Controls = {
     Select,
     Checkbox,
     DataPicker,
-    Button
+    Button,
+    ActionButton
 }
