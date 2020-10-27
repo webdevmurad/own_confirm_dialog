@@ -46,6 +46,8 @@ export function Form(props) {
     const classes = useStyles();
     const {children, ...other} = props
 
+    console.log({...other})
+
     return (
         <form className={classes.root} autoComplete="off" {...other}>
             {props.children}
